@@ -7,42 +7,42 @@ const projects = [
     title: 'Application de Recrutement', 
     desc: 'Développement full-stack avec APIs Node.js et interface React.js. Gestion des données utilisateurs et déploiement sur OVH.', 
     tech: 'Node.js • React.js • MongoDB • GitHub',
-    link: 'https://example.com/recrutement',
+   // link: 'https://example.com/recrutement',
     type: 'Professionnel'
   },
   { 
     title: 'Application Web Symfony', 
     desc: 'Conception complète d\'une application web moderne avec containerisation Docker et interface React/Vite.', 
     tech: 'Symfony • Docker • React.js • Vite • GitHub',
-    link: 'https://example.com/symfony-app',
+    //link: 'https://example.com/symfony-app',
     type: 'Personnel'
   },
   { 
     title: 'Site de Pressing', 
     desc: 'Développement d\'un site web complet pour service de pressing avec base de données moderne.', 
     tech: 'Next.js • Prisma • Base de données',
-    link: 'https://example.com/pressing',
+    link: 'https://agathatestv1.netlify.app/',
     type: 'Personnel'
   },
   { 
     title: 'Applications Mobiles Flutter', 
     desc: 'Conception de prototypes et développement frontend d\'applications mobiles avec design UX/UI optimisé.', 
     tech: 'Flutter • Figma • Postman • Behance',
-    link: 'https://example.com/flutter-app',
+   // link: 'https://example.com/flutter-app',
     type: 'Professionnel'
   },
   { 
     title: 'Dashboard Électricité', 
     desc: 'Tableau de bord interactif connecté à un dispositif d\'électricité avec stockage cloud en temps réel.', 
     tech: 'Angular.js • Firebase • GitHub • Scrum',
-    link: 'https://example.com/dashboard',
+    //link: 'https://example.com/dashboard',
     type: 'Professionnel'
   },
   { 
     title: 'Refonte Interface UX/UI', 
     desc: 'Refonte complète de l\'interface utilisateur d\'une application de recrutement avec prototypage avancé.', 
     tech: 'React.js • Figma • GitHub • Trello',
-    link: 'https://example.com/refonte-ui',
+   // link: 'https://example.com/refonte-ui',
     type: 'Professionnel'
   }
 ];
