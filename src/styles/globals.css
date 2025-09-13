@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Racine et rendu fluide */
+:root {
+  --ring: 0 224 255;
+}
+* {
+  @apply antialiased;
+}
+
+/* Boutons lumineux, style Solo Leveling */
+.btn {
+  @apply inline-flex items-center gap-2 rounded-lg px-6 py-3 font-bold text-white transition shadow-lg;
+}
+
+.btn:hover {
+  @apply scale-105;
+  box-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff, 0 0 30px #00e0ff;
+}
+
+.btn-primary {
+  @apply bg-sl-blue text-sl-dark hover:bg-sl-red;
+}
+
+.btn-outline {
+  @apply border border-sl-blue text-sl-white hover:bg-sl-blue/10;
+}
+
+/* Exemple de cercle animé type effet "néon" */
+.neon-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background-color: #00e0ff;
+  box-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff;
+  animation: bounce 1.2s ease-in-out infinite;
+}
+
+/* Styles généraux */
+body {
+  @apply bg-sl-dark text-sl-white;
+}
