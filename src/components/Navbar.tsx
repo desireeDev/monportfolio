@@ -40,13 +40,13 @@ export function Navbar() {
               {n.label}
             </NavLink>
           ))}
-          <a
+        {/*   <a
             href="/cv/CV.pdf"
             className="btn btn-outline hover:shadow-neon"
             target="_blank"
           >
             Télécharger CV
-          </a>
+          </a> */}
         </nav>
 
         {/* Menu mobile */}
@@ -76,13 +76,13 @@ export function Navbar() {
               {n.label}
             </NavLink>
           ))}
-          <a
-            href="/cv/CV.pdf"
+        {/*   <a
+            href="/cv/MonCV.pdf"
             className="btn btn-outline w-max hover:shadow-neon"
             target="_blank"
           >
             Télécharger CV
-          </a>
+          </a> */}
         </motion.nav>
       )}
     </header>
